@@ -1,0 +1,26 @@
+{
+  "name": "zconf",
+  "version": "1.0.0",
+  "description": "A useful json based config modules, based on nconf.",
+  "homepage": "https://github.com//zconf",
+  "bugs": "https://github.com//zconf/issues",
+  "author": {
+    "name": "Joel Caballero",
+    "email": "joel@zther.com",
+    "url": "zther.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//zconf"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.4.4"
+  }
+}
