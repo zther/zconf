@@ -1,20 +1,33 @@
-# zconf [![Build Status](https://secure.travis-ci.org//zconf.png?branch=master)](http://travis-ci.org//zconf)
+# zconf 
 
 A useful json based config modules, based on nconf.
 
 ## Getting Started
 Install the module with: `npm install zconf`
 
-```javascript
-var zconf = require('zconf');
-zconf.awesome(); // "awesome"
-```
-
 ## Documentation
 _(Coming soon)_
 
 ## Examples
-_(Coming soon)_
+ 
+	//add a stores
+ 	zconf.add('store1', './store1.json');
+ 	zconf.add('store2', './store2.json');
+ 
+ 	//set sets key value for 'store2'
+ 	zconf.set('key', 'value');
+ 
+ 	//get get key value for 'store2'
+	zconf.get('key');
+	
+	//switch stores
+	zconf.use('store1');
+	
+	//or just do this..
+	zconfig.use('store2').get('key');
+	
+	//remove a store
+	zconf.remove('store1');
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).

@@ -2,8 +2,8 @@
   "name": "zconf",
   "version": "1.0.0",
   "description": "A useful json based config modules, based on nconf.",
-  "homepage": "https://github.com//zconf",
-  "bugs": "https://github.com//zconf/issues",
+  "homepage": "https://github.com/zther/zconf",
+  "bugs": "https://github.com/zther/zconf/issues",
   "author": {
     "name": "Joel Caballero",
     "email": "joel@zther.com",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com//zconf"
+    "url": "https://github.com/zther/zconf.git"
   },
   "licenses": [
     {
