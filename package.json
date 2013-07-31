@@ -18,6 +18,9 @@
       "type": "MIT"
     }
   ],
+  "scripts": {
+    "test": "grunt test"
+  },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-nodeunit": "~0.1.2",
