@@ -6,7 +6,41 @@ A useful json based config modules, based on nconf.
 Install the module with: `npm install zconf`
 
 ## Documentation
-_(Coming soon)_
+Library create a config file of it's own in the `__dir` path.  It's titled config.json.  Will probably change it to ._config.json in the future.
+
+### zconf.add(name, path)
+Adds a new store with the specified `name` and `path`.
+
+	zconf.add('local', '/path/to/localconf.json');
+  	zconf.add('global', '/path/to/globalconf.json');
+
+### zconf.use(name)
+Switches stores
+
+	zconf.use('local');
+	
+### zconf.set(key,value)
+Sets your key value.
+
+	zconf.set('key', 'value');
+	
+	//'add' and 'use' return itself so...
+	zconf.use('local').set('key', 'value');
+	
+
+### zconf.get(key)
+Sets your key value
+
+	zconf.get('key');
+	
+	//'add' and 'use' return itself so...
+	zconf.use('local').get('key');
+
+### nconf.remove(name)
+Removes the store with the specified `name.` The configuration stored at that level will no longer be used for lookup(s).
+
+	zconf.remove('name');
+
 
 ## Examples
  
