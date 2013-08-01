@@ -1,4 +1,4 @@
-# zconf 
+# zconf [![Build Status](https://travis-ci.org/zther/zconf.png?branch=master)](https://travis-ci.org/zther/zconf)
 
 A useful json based config modules, based on nconf.
 
